@@ -8,7 +8,18 @@ export interface InputItemPropsType {
     | 'phone'
     | 'password'
     | 'number'
-    | 'digit';
+    | 'digit'
+    | 'email-address'
+    | 'numeric'
+    | 'phone-pad'
+    | 'ascii-capable'
+    | 'numbers-and-punctuation'
+    | 'url'
+    | 'number-pad'
+    | 'name-phone-pad'
+    | 'decimal-pad'
+    | 'twitter'
+    | 'web-search';
   editable?: boolean;
   disabled?: boolean;
   name?: string;
